@@ -14,8 +14,8 @@ def login():
     id = data.get('id')
     print(name +" "+str(id))
 
-    #obj = Myclass(name,str(id))
-    #obj.new_func()
+    obj = Myclass(name,str(id))
+    obj.new_func()
     return {'status':"successful"}
 
 if __name__ == '__main__':
